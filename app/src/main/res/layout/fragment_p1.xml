@@ -8,8 +8,8 @@
     android:orientation="horizontal"
     tools:context=".ui.P1Fragment">
 
-    <TextView
-        android:id="@+id/tv_emoji"
+    <ImageView
+        android:id="@+id/tv_emoji" android:src="@drawable/ic_menu_gallery"
         android:text=":)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
         android:textSize="20sp"/>
     <TextView
         android:id="@+id/tv_title"
-        android:text=":)"
+        android:text="Fundamentos de Redes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
