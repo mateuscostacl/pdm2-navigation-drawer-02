@@ -19,14 +19,14 @@
         <item
             android:id="@+id/nav_p4"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_p3" />
+            android:title="@string/menu_p4" />
         <item
             android:id="@+id/nav_p5"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_p3" />
+            android:title="@string/menu_p5" />
         <item
             android:id="@+id/nav_p6"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_p3" />
+            android:title="@string/menu_p6" />
     </group>
 </menu>
