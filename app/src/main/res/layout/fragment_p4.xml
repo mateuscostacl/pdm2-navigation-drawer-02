@@ -4,14 +4,142 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10sp"
     android:orientation="vertical"
     tools:context=".ui.P4Fragment">
 
-    <TextView
-        android:id="@+id/tv_title"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="20sp"/>
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_sist_soa"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_sist_soa"
+            android:text="Sistemas distribuídos e soa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_proj_sist"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_proj_sist"
+            android:text="Projeto de sistemas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_teste_soft"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_teste_soft"
+            android:text="Teste de software"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_proj_intweb"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_proj_intweb"
+            android:text="Projeto de interface web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_prog_webII"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_prog_webII"
+            android:text="Programação para web II"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_eletiva"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_eletiva"
+            android:text="Eletiva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

@@ -4,14 +4,142 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10sp"
     android:orientation="vertical"
     tools:context=".ui.P5Fragment">
 
-    <TextView
-        android:id="@+id/tv_title"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="20sp"/>
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_segur_sist"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_segur_sist"
+            android:text="Segurança de sistemas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_infra"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_infra"
+            android:text="Infraestrutura para sistemas web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_adm_bd"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_adm_bd"
+            android:text="Administração para banco de dados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_tec_bd"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_tec_bd"
+            android:text="Novas tecnologias em banco de dados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_pdmI"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_pdmI"
+            android:text="Programação para dispositivos móveis I"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_met_desenv"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_met_desenv"
+            android:text="Metodologias de desenvolvimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

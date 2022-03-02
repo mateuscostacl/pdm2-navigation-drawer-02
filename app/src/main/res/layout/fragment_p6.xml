@@ -4,14 +4,99 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10sp"
     android:orientation="vertical"
     tools:context=".ui.P6Fragment">
 
-    <TextView
-        android:id="@+id/tv_title"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="20sp"/>
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_novas_tec_desenv_web"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_novas_tec_desenv_web"
+            android:text="Novas tecnologias em desenv para web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_geren_conf"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_geren_conf"
+            android:text="Gerência de configuração"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_padro_proj"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_padro_proj"
+            android:text="Padrões de projeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_pdmII"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_pdmII"
+            android:text="Programação para dispositivos movéis II"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+    
+
+
 
 </LinearLayout>

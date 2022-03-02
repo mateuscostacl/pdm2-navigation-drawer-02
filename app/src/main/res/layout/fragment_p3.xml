@@ -4,14 +4,142 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10sp"
     android:orientation="vertical"
     tools:context=".ui.P3Fragment">
 
-    <TextView
-        android:id="@+id/tv_title"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="20sp"/>
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_intro_cinect"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_intro_cinect"
+            android:text="Introdução a conectividade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_ger_dadosweb"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_ger_dadosweb"
+            android:text="Gerenciamento de dados para web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_prog_bd"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_prog_bd"
+            android:text="Programação para banco de dados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_adm_sist"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_adm_sist"
+            android:text="Administração de sistemas proprietários"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_prog_web_design"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_prog_web_design"
+            android:text="Programação para web designers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_prog_web1"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_prog_web1"
+            android:text="Programação para web I"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>

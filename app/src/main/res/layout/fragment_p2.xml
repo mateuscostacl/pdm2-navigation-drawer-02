@@ -4,14 +4,120 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="10sp"
     android:orientation="vertical"
     tools:context=".ui.P2Fragment">
 
-    <TextView
-        android:id="@+id/tv_title"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="20sp"/>
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_fund_bd"
+            android:src="@drawable/icon_sono"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv__fund_bd"
+            android:text="Fundamentos e projetos de banco de dados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_anal_sist"
+            android:src="@drawable/icon_pensando"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_anal_sist"
+            android:text="Análise de sistemas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_int_prog"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_int_prog"
+            android:text="Introdução a programação"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_prog_obj"
+            android:src="@drawable/icon_chorao"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_prog_obj"
+            android:text="programação orientada a objeto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_prog_web"
+            android:src="@drawable/icon_choro"
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:layout_marginRight="10sp"
+            android:size="20sp"/>
+
+        <TextView
+            android:id="@+id/tv_prog_web"
+            android:text="Programação básica para web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+
 
 </LinearLayout>
