@@ -18,8 +18,7 @@
             android:src="@drawable/icon_nervoso"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_fund_redes"
@@ -40,8 +39,7 @@
             android:src="@drawable/icon_emoji"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_tend_tec"
@@ -62,8 +60,7 @@
             android:src="@drawable/icon_emoji"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_ingles"
@@ -84,8 +81,7 @@
             android:src="@drawable/icon_pensando"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_int_log"
@@ -106,8 +102,7 @@
             android:src="@drawable/icon_emoji"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_inf_Instru"
@@ -128,8 +123,7 @@
             android:src="@drawable/icon_pensando"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_int_prog"

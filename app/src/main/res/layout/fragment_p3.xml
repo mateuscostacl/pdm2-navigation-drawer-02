@@ -18,8 +18,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_intro_cinect"
@@ -40,8 +39,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_ger_dadosweb"
@@ -62,8 +60,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_prog_bd"
@@ -84,8 +81,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_adm_sist"
@@ -106,8 +102,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_prog_web_design"
@@ -128,8 +123,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_prog_web1"

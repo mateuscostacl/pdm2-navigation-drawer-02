@@ -18,8 +18,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_segur_sist"
@@ -40,8 +39,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_infra"
@@ -62,8 +60,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_adm_bd"
@@ -84,8 +81,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_tec_bd"
@@ -106,8 +102,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_pdmI"
@@ -128,8 +123,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_met_desenv"

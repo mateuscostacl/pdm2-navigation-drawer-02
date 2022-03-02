@@ -18,8 +18,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_sist_soa"
@@ -40,8 +39,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_proj_sist"
@@ -62,8 +60,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_teste_soft"
@@ -84,8 +81,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_proj_intweb"
@@ -106,8 +102,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_prog_webII"
@@ -128,8 +123,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_eletiva"

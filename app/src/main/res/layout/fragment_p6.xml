@@ -18,8 +18,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_novas_tec_desenv_web"
@@ -40,8 +39,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_geren_conf"
@@ -62,8 +60,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_padro_proj"
@@ -84,8 +81,7 @@
             android:src="@drawable/icon_chorao"
             android:layout_width="20sp"
             android:layout_height="20sp"
-            android:layout_marginRight="10sp"
-            android:size="20sp"/>
+            android:layout_marginRight="10sp"/>
 
         <TextView
             android:id="@+id/tv_pdmII"

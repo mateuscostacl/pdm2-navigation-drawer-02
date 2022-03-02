@@ -19,8 +19,8 @@ public class P1Fragment extends Fragment {
 
         View root = inflater.inflate(R.layout.fragment_p1, container, false);
 
-        TextView tvTitle = root.findViewById((R.id.tv_title));
-        tvTitle.setText(R.string.menu_p1);
+//        TextView tvTitle = root.findViewById((R.id.tv_title));
+//        tvTitle.setText(R.string.menu_p1);
 
 //        ImageView ivTitle = root.findViewById((R.id.iv_title));
 //        ivTitle.setImageResource(R.drawable.icon_coracao);

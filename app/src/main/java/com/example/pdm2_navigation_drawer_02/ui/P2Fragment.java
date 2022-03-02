@@ -19,8 +19,8 @@ public class P2Fragment extends Fragment {
 
         View root = inflater.inflate(R.layout.fragment_p2, container, false);
 
-        TextView tvTitle = root.findViewById((R.id.tv_title));
-        tvTitle.setText(R.string.menu_p2);
+//        TextView tvTitle = root.findViewById((R.id.tv_title));
+//        tvTitle.setText(R.string.menu_p2);
 
 //        ImageView ivTitle = root.findViewById((R.id.iv_title));
 //        ivTitle.setImageResource(R.drawable.icon_coracao);
